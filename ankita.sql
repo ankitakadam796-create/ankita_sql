@@ -15,3 +15,4 @@ insert into employee values
 (101,"ankita","it",30000,"f",21);
 delete from employee;
 use ankita;
+

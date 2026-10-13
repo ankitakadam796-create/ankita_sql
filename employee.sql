@@ -129,9 +129,13 @@ select sqrt(16);
 
 #date and time
 select now();
-
-
-
+#dateformat
+select date_format(now(),'%y-%m-%d');
+select date_format(now(),'%h-%i-%s');  -- i for the minutes
+select date_format(now(),'%d-%m-%y %h-%i-%s');
+select date_add(now(),interval 30 day) ; -- add 30 days to the current days and return the output
+select date_sub(now(),interval 5 day); -- sub 5 days to the current days and return the output
+select datediff(now(),'2004,11,18');
 
 
 

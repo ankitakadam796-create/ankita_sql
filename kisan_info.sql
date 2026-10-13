@@ -38,3 +38,7 @@ show create table kisan_info; -- show the all constraints which used in the tabl
 show create table kisan_details;
 
 
+
+
+
+
